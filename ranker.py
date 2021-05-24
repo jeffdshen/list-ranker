@@ -32,7 +32,7 @@ def add_args(parser):
     parser.add_argument(
         "--seeding_passes",
         type=int,
-        default=5,
+        default=0,
         help="Number of seeding passes to use, before proceeding to user-inputted passes. "
         "In this mode, group matches are held with higher seeds automatically winning. "
         "The seed is determined by the placement of the item in the input file. "
